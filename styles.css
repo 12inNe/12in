@@ -10,12 +10,19 @@ h1{
     background: #D9A282;
     color: #734949;
     text-align: center;
-    max-height: 225;
+    max-height: 225px;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 
+}
 nav{
     background: #BF7154;
 
-
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
 }
