@@ -30,7 +30,9 @@ nav{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #BF7154;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #BF7154;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
@@ -55,7 +57,7 @@ nav{
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: #F2D399;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
