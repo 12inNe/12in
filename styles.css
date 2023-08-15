@@ -10,27 +10,14 @@ h1{
     background: #D9A282;
     color: #734949;
     text-align: center;
-    max-height: 280px;
+    max-height: 350px;
 }
-/*
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
 
-}
-nav{
-    background: #BF7154;
-
-}
-.nav-con {
-    display: flex;
-    justify-content: space-between;
-}*/
 
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    max-width: 1600px;
+    max-height: 280px;
     margin: 0 auto;
     background: #BF7154;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -91,7 +78,7 @@ nav{
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #9f5439;
+    background-color: #e9c789;
   }
   
   /* Show the dropdown menu on hover */
