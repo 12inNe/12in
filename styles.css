@@ -10,7 +10,7 @@ h1{
     background: #D9A282;
     color: #734949;
     text-align: center;
-    max-height: 225px;
+    max-height: 280px;
 }
 
 .container {
@@ -29,5 +29,5 @@ nav{
 
 .menu {
     color: #BF3636;
-    font-display: swap;
+    
 }
