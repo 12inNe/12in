@@ -82,7 +82,7 @@ nav{
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: b#BF7154;
+    color: #BF7154;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -91,7 +91,7 @@ nav{
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #9f5439;
   }
   
   /* Show the dropdown menu on hover */
