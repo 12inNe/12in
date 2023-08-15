@@ -6,8 +6,15 @@
 }
 
 
-body{
+h1{
     background: #D9A282;
     color: #734949;
     text-align: center;
+}
+
+
+nav{
+    background: #BF7154;
+
+
 }
