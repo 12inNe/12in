@@ -26,3 +26,8 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+.menu {
+    color: #BF3636;
+    font-display: swap;
+}
