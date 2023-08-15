@@ -30,15 +30,15 @@ nav{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
+    background-color: #BF7154;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Links inside the navbar */
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: #BF3636;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
