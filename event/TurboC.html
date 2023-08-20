@@ -1,0 +1,341 @@
+<h1 id="book-review">Book Review</h1>
+<p>This blog I am going to review and introduced the book that I have read and tried to  learned about C language.</p>
+<p>The book is <strong>Advanced Turbo C Programming (1988)</strong> which is really old book and I have some checklists for the book which is for learning C programming and use for comparing which topics this book which don&#39;t and which that this book have but I don&#39;t.</p>
+<p> <a href="https://www.sciencedirect.com/book/9780127426891/advanced-turbo-c-programming">Clik here if you want to read Advanced Turbo C Programming (1988) </a></p>
+<h1 id="table-of-contents">Table of contents</h1>
+<ul>
+<li><a href="#topics-to-learn-c">Topics to learn C</a></li>
+<li><a href="#what-advanced-turbo-c-programming-1988-does-not-have">What Advanced Turbo C Programming (1988) Does Not Have.</a></li>
+<li><a href="#the-topic-that-this-book-have">The Topic that This Book Have</a></li>
+<li><a href="#topic-i-want-to-put-in-the-checklist-after-rerading-the-book">Topic I want to put in the checklist after reading the book.</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+<h2 id="topics-to-learn-c">Topics to learn C</h2>
+<ul>
+<li><p><strong>Getting started with C Language</strong></p>
+<ul>
+<li><strong><em>The history of C.</em></strong></li>
+<li><strong><em>The evolution of the C programming standards.</em></strong></li>
+<li>The relationship of C to C++.</li>
+<li><strong><em>Some recommended / free books for learning C.</em></strong></li>
+<li>Source Code Compilation, Cross-Compilation Process.</li>
+<li><strong><em>C/C++ Toolchains and Open Source IDEs.</em></strong></li>
+</ul>
+</li>
+<li><p><strong>Code Comments</strong></p>
+<ul>
+<li><strong><em>Single-line comments: // ....</em></strong></li>
+<li><strong><em>Multiple-line comments: /</em> ... <em>/</em></strong></li>
+</ul>
+</li>
+<li><p><em>Keywords or reserved words in C (Not in the book)</em></p>
+</li>
+<li><p><strong>Data Types</strong></p>
+<ul>
+<li>Basic data types<ul>
+<li><strong><em>&#39;int&#39; represents integers (whole numbers) with varying sizes depending on the platform.</em></strong></li>
+<li><strong><em>&#39;char&#39; represents single characters.</em></strong></li>
+<li><strong><em>&#39;float&#39; represents single-precision floating-point numbers.</em></strong></li>
+<li><strong><em>&#39;double&#39; represents double-precision floating-point numbers.</em></strong></li>
+<li>&#39;bool&#39; (via #include <stdbool.h>) represents boolean values (&#39;true&#39; or &#39;false&#39;).</li>
+<li>&#39;_Bool&#39; (C99&#39;s boolean type)</li>
+</ul>
+</li>
+<li><strong><em>Derived Data Types</em></strong><ul>
+<li>Arrays, structures, unions</li>
+</ul>
+</li>
+<li><strong><em>Enumerated data types (the &#39;enum&#39; keyword)</em></strong></li>
+<li><strong><em>&#39;void&#39; data type</em></strong><ul>
+<li>a special data type that indicates the absence of a specific type.</li>
+<li>used to represent a lack of value or to indicate that a function does not return any value.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>Type Modifiers for Numbers(Not in the book)</em><ul>
+<li>integers: such as &#39;signed&#39;, &#39;unsigned&#39;, &#39;short&#39;, &#39;long&#39;, &#39;long long&#39;</li>
+<li>floating-points: &#39;long&#39; (for &#39;float&#39; and &#39;double&#39;)</li>
+</ul>
+</li>
+<li><strong>Type Conversions</strong><ul>
+<li><strong><em>Implicit: short to int to long, float to double.</em></strong></li>
+<li><strong><em>Explicit: (<type>)(expression) for type-casting.</em></strong></li>
+</ul>
+</li>
+<li><strong>Literals (constant values of specific data types)</strong><ul>
+<li>Primitive vs. Compound Literals</li>
+<li><strong><em>Integer Literal: 42, -100, 0, 123456</em></strong></li>
+<li><strong><em>Octal Literal: 0644</em></strong></li>
+<li><strong><em>Hexadecimal Literal: 0x1A, 0xFF, 0xABC</em></strong></li>
+<li><strong><em>Floating-Point Literal: 3.14, -0.005, 1.0e-5</em></strong></li>
+<li><strong><em>Character Literal: &#39;A&#39;, &#39;5&#39;, &#39;!&#39;, &#39;\n&#39;</em></strong></li>
+<li>Boolean Literal (C99 and later): true, false</li>
+<li><strong><em>String Literal: &quot;Hello, world!&quot;, &quot;&quot; (an empty string)</em></strong></li>
+</ul>
+</li>
+<li><strong>Identifiers and Variables</strong><ul>
+<li>Identifier Naming</li>
+<li><strong><em>Variable Definition and Initialization</em></strong></li>
+<li><strong><em>Variable Scope</em></strong></li>
+<li><strong><em>Constants (with the const keyword)</em></strong></li>
+<li>Declaration vs. Definition<ul>
+<li>A declaration introduces an identifier to the compiler and informs it about the data type and name of the identifier.</li>
+<li>A definition creates the actual instance of an identifier in memory. It allocates memory for variables and provides the implementation for functions.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Operators</strong></p>
+<ul>
+<li><strong><em>Arithmetic Operators: +, -, </em>, /, %, ++, --*</strong></li>
+<li><strong><em>Relational Operators: ==, !=, &gt;, &lt;, &gt;=, &lt;=</em></strong></li>
+<li><strong><em>Logical Operators: &amp;&amp;, ||, !</em></strong></li>
+<li><strong><em>Bitwise Operators: &amp;, |, ^, ~, &lt;&lt;, &gt;&gt;</em></strong></li>
+<li><strong><em>Assignment Operators: =, +=, -=, </em>=, /=, %=, &amp;=, =, ^=, &gt;&gt;=, &lt;&lt;=*</strong></li>
+<li><strong><em>Conditional Operator: () ? () : ()</em></strong></li>
+<li><strong><em>Miscellaneous Operators:</em></strong><ul>
+<li>, (comma), &amp; (address-of operator)</li>
+<li>sizeof(...) used to determine the size in bytes of a data type or variable.</li>
+<li>. (dot or memory-access operator)</li>
+<li>-&gt; (memory-access operator),</li>
+<li>[...] (square bracket or array indexing operator)</li>
+</ul>
+</li>
+<li><strong><em>Side Effects of the ++ and -- Operators for Value Modification</em></strong><ul>
+<li>Pre-increment and Pre-decrement</li>
+<li>Post-increment and Post-decrement</li>
+<li>Order of Evaluation</li>
+</ul>
+</li>
+<li><strong><em>Short-circuit logical operators</em></strong><ul>
+<li>The &amp;&amp; (logical AND) operator: (expr1 &amp;&amp; expr2)</li>
+<li>The || (logical OR) operator: (expr1 || expr2)</li>
+<li>These short-circuit operators halt evaluation once the final outcome is determined by the preceding sub-expressions.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Strings</strong></p>
+<ul>
+<li><strong>*A string is a sequence of characters stored in an array that represents text.</strong></li>
+<li><strong><em>terminated by a null character (&#39;\0&#39;).</em></strong></li>
+<li><strong><em>accessible by a (char </em>) pointer.*</strong></li>
+</ul>
+</li>
+<li><strong>Array: 1D and 2D</strong><ul>
+<li><strong><em>a collection of elements of the same data type, stored in contiguous memory locations.</em></strong></li>
+</ul>
+</li>
+<li><strong>Structs (short for structures)</strong><ul>
+<li><strong><em>a composite data type that allows you to group together variables of different data types under a single name.</em></strong></li>
+</ul>
+</li>
+<li><strong>Union</strong><ul>
+<li><strong><em>a user-defined data type that all members of a union share the same memory location.</em></strong></li>
+</ul>
+</li>
+<li><strong>Bit-field</strong><ul>
+<li><strong><em>a bit field is used to specify the number of bits to be used to store a particular data member within a struct.</em></strong></li>
+</ul>
+</li>
+<li><strong>Enumeration (enum)</strong><ul>
+<li><strong><em>a user-defined data type that consists of a set of named integer constants.</em></strong></li>
+</ul>
+</li>
+<li><strong>Typedef for user-defined types</strong><ul>
+<li><strong><em>used to create an alias or a new name for an existing data type.</em></strong></li>
+<li><strong><em>provides a way to define custom names for data types.</em></strong></li>
+</ul>
+</li>
+<li><strong>Statements such as</strong><ul>
+<li><strong><em>Iteration Statements/Loops: for, while, do-while</em></strong></li>
+<li><strong><em>Selection Statements: if, if-else, switch-case</em></strong></li>
+<li><strong><em>Assignment Statements</em></strong></li>
+</ul>
+</li>
+<li><strong>Functions</strong><ul>
+<li><strong><em>Variable arguments of a function</em></strong></li>
+</ul>
+</li>
+<li><strong>Pointers</strong><ul>
+<li><strong><em>Pointer Arithmetics</em></strong></li>
+<li><strong><em>Function Pointers and Parameters</em></strong></li>
+</ul>
+</li>
+<li><strong>C Preprocessor Directives and Macros</strong><ul>
+<li><strong><em>#include &lt;...&gt;: include header files.</em></strong></li>
+<li><strong><em>#define</em></strong></li>
+<li><strong><em>#if, #else, #ifdef, #ifndef, #endif, #undef</em></strong></li>
+<li><strong><em>#error</em></strong></li>
+</ul>
+</li>
+<li><strong>Command-line arguments to the main() function</strong><ul>
+<li><strong><em>provided by the user when they run the program and can be used to pass information or parameters to the program.</em></strong></li>
+<li><strong><em>int main(int argc, char </em>argv[]) { ... }*</strong></li>
+</ul>
+</li>
+<li><strong>The C Standard I/O library</strong><ul>
+<li><strong><em>printf() and scanf() functions.</em></strong></li>
+<li><strong><em>fprintf() functions and the output streams (&#39;stdout&#39; and &#39;stderr&#39;).</em></strong></li>
+<li><strong><em>Formatted strings for Input/Output</em></strong></li>
+</ul>
+</li>
+<li><strong>Files and I/O streams</strong><ul>
+<li><strong><em><stdio.h> (Standard I/O Library) provides functions for basic input and output operations.</em></strong></li>
+<li><strong><em>Examples of functions in this library:</em></strong><ul>
+<li>fopen(), fclose()</li>
+<li>fprintf(), fscanf()</li>
+<li>fputc(), fgetc(), fgets(), fputs()</li>
+<li>fwrite(), fread(), feof(), fseek(), rewind()</li>
+</ul>
+</li>
+<li><strong><em>Other standard C libraries:</em></strong><ul>
+<li><stdlib.h> provides functions for various file operations.</li>
+<li><unistd.h> (Unix Standard Library) provides functions for low-level file operations.</li>
+<li><sys/types.h> and <sys/stat.h> provide data types and functions for working with file status and attributes.</li>
+<li><fcntl.h> provides functions for managing file descriptors and controlling file attributes.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>Pseudo-Random Number Generation(Not inthe book)</em><ul>
+<li>srand(): used to seed the random number generator.</li>
+<li>rand(): returns an integer between 0 and RAND_MAX.</li>
+<li>Both functions are declared in <stdlib.h></li>
+</ul>
+</li>
+<li><em>The C Standard Math library(not in the book)</em><ul>
+<li>The <math.h> header file must be included in source code in order to use the C Standard Math library.</li>
+<li>The -lm flag must be specified for program linking (when using GCC C compiler).</li>
+</ul>
+</li>
+<li><p><em>POSIX Threads and Multithreading(Not in the book)</em></p>
+<ul>
+<li>often referred to as pthreads.</li>
+<li>a standardized threading library for creating and managing threads in a multi-threaded program.</li>
+<li>used to create multiple threads within a single process, enabling concurrent execution of tasks.</li>
+</ul>
+</li>
+<li><p><strong>Interprocess Communication (IPC)</strong></p>
+<ul>
+<li>provides the mechanisms and techniques used for communication and data sharing
+between different threads or processes.</li>
+<li>common IPC mechanisms:<ul>
+<li><strong><em>Pipes and Named Pipes (FIFOs)</em></strong></li>
+<li>Sockets</li>
+<li>Signals</li>
+<li>Message Queues</li>
+<li>Semaphores, Mutexes, and Condition Variables</li>
+<li>Shared Memory</li>
+<li>Message Passing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>Assertion(Not in the book)</em><ul>
+<li>used to ensure that certain conditions hold true during program execution.</li>
+<li>The assert() macro can be used to perform assertions, defined in the <assert.h> header file.</li>
+</ul>
+</li>
+<li><strong>Memory management (Heap Usage)</strong><ul>
+<li><strong><em>Memory management in C involves allocating and deallocating memory on the heap.</em></strong></li>
+<li><strong><em>Heap is a region of memory used for dynamically allocated data.</em></strong></li>
+<li><strong><em>Primary functions for memory management on the heap:</em></strong><ul>
+<li>malloc() used to allocate a block of memory on the heap.</li>
+<li>calloc() used to allocate memory for an array of elements, initializing them to zero.</li>
+<li>realloc() used to resize an existing allocated memory block.</li>
+<li>free() used to release memory that was previously allocated.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Common C programming idioms and developer practices</strong><ul>
+<li>Use Meaningful Variable and Function Names.</li>
+<li>Use consistent indentation and formatting.</li>
+<li>Write Code with Comments and Documentation.</li>
+<li>Avoid Global Variables.</li>
+<li>Minimize the use of global variables.</li>
+<li>Properly allocate and release memory.</li>
+<li>Use Constants and Enumerations for improved code readability.</li>
+<li>Avoid using hard-coded values directly in the code. Instead, use named constants or macros.</li>
+<li>Break large functions into smaller, more manageable functions to improve readability.</li>
+<li>Write code that is portable across different platforms and compilers.</li>
+<li>...</li>
+</ul>
+</li>
+<li><strong>Common Pitfalls</strong><ul>
+<li>Memory Leakage</li>
+<li>Buffer Overflows</li>
+<li>Integer Overflow and Underflow</li>
+<li>Null Pointer Dereference</li>
+<li>Improper Type Conversion and Casting</li>
+<li>Use of Uninitialized Variables</li>
+<li>...</li>
+</ul>
+</li>
+<li><strong>GUI-based Application Development (with C/C++)</strong><ul>
+<li>GTK3 or GTK4 framework (for Linux)</li>
+<li>Qt5 framework (Cross-platform)</li>
+</ul>
+</li>
+</ul>
+<h2 id="what-advanced-turbo-c-programming-1988-does-not-have-">What Advanced Turbo C Programming (1988) Does Not Have.</h2>
+<p>  As you can see from the there is much basic stuff that you need to learn if you are new to C language but this book doesn&#39;t have a lot of them it also states that <strong><em>&quot;This book assumes that you&#39;re familiar with the basics of C programming. It does not explain C programming fundamentals at the level you&#39;ll need if you&#39;re a new hand at C programming.&quot;</em></strong> So if you are new or just started learning C , I do not recommend this book for you.</p>
+<h2 id="the-topic-that-this-book-have">The Topic that This Book Have</h2>
+<p><strong>Getting started with C Language</strong></p>
+<p>  This book it has a brief history of C and none of C++ cause of the year it was published and also how new the language is. Also, this book shows the change in C standards and the book about it which is a classic text of Kernighan and Ritchie called &quot;The C Programming Language&quot;.</p>
+<p><strong>Code Comments</strong></p>
+<p>  In this part, it doesn&#39;t have it but there are examples of using them in the book on many parts</p>
+<p>  <strong>Data Types</strong></p>
+<p>  The data types it has shown in Chapter 3 about Data Structure contain &#39;int&#39;, &#39;char&#39;,&#39; float, and &#39;double&#39; but no boolean type. Also, it showed how to use many structures like arrays enumerated unions and void types was included too.</p>
+<p>  <strong>Type Conversions</strong></p>
+<p>  Showned some usage but doesn&#39;t explain how to use it.</p>
+<p>  <strong>Literals (constant values of specific data types)</strong></p>
+<p>  Used and explain how to use the data but doesn&#39;t have compairation and doesn&#39;t have boolean.</p>
+<p>  <strong>Identifiers and Variables</strong></p>
+<p>  Its have shown about how to define what type and constant and volatile usage in the book but doesn&#39;t have a comparison of declare and define also none of the topics of how to name variables.</p>
+<p>  <strong>Operators</strong></p>
+<p>  On this book it use all of the operators but doesn&#39;t have an explanation and how to use them.</p>
+<p>  <strong>Strings</strong></p>
+<p>  A lot of info about this part using string is like the main concept of the book the use of pointers and NULL are all included.</p>
+<p>  <strong>Array: 1D and 2D</strong></p>
+<p>  Its using Array in many kinds like for some data structured and to store value have shown how to use it in the first Chapter.</p>
+<p>  <strong>Structs (short for structures)</strong></p>
+<p>  On chapter 3 it showed many of data structures like Linkedlist(singly and doubly), Stack, and Binary trees and how to make them useful.</p>
+<p>  <strong>Union</strong></p>
+<p>  It shown how to create and usage of Union</p>
+<p>  <strong>Bit-field</strong></p>
+<p>  Have shown some uses in the book.</p>
+<p>  <strong>Enumeration (enum)</strong></p>
+<p>  Included in the First Chapter on how to create enum.</p>
+<p>  <strong>Typedef for user-defined types</strong></p>
+<p>  Explained how to use typedef and how we can redefine variables.</p>
+<p>  <strong>Statements such as</strong></p>
+<p>  Have all of the statements we normally use such as for, while, switch case, if-else and a lot of usage.</p>
+<p>  <strong>Functions</strong></p>
+<p>  Shows how to declare how the argument work and the type of it, void function and how to use them.</p>
+<p>  <strong>Pointers</strong></p>
+<p>  How to use them and many ways to make them useful. It is like the fundamental part of learning C.</p>
+<p>  <strong>C Preprocessor Directives and Macros</strong></p>
+<p>  This book has a table for all Macros and preprocessors which also explained how they work and when to use them.</p>
+<p>  <strong>Command-line arguments to the main() function</strong></p>
+<p>  Show about argv argc and how to use command-line for running the program.</p>
+<p>  <strong>The C Standard I/O library</strong></p>
+<p>  Contains all of the standard I/O function and explain the library used.</p>
+<p>  <strong>Files and I/O streams</strong></p>
+<p>  All about Files and I/O streams are included in this book which I think it really useful if your gonna work with this part of programming and also uit have a routine for practice yourself too.</p>
+<p>  <strong>Interprocess Communication (IPC)</strong></p>
+<p>  Only pipes introduce in this book.</p>
+<p>  <strong>Memory management (Heap Usage)</strong></p>
+<p>  Heap is use in this book and the function for memory allocate the too and there function too like &#39;malloc()&#39;,&#39;colloc()&#39;, &#39;realloc&quot;, &#39;free()&#39;</p>
+<p>  <strong>Common C programming idioms and developer practices</strong></p>
+<p>  In the book, it says you have 2 main concepts of writing code that are to be readable and portable. And it shows how the code properly writing to be readable.</p>
+<p>  <strong>Common Pitfalls</strong></p>
+<p>  Not really state on one topic but separately talk about when we in the topic and some of how to handling with them.</p>
+<p> <strong>GUI-based Application Development (with C/C++)</strong></p>
+<p>  In this book, the last 2 Chapters are about Video and creating UI which easily for user to use.</p>
+<h2 id="topic-i-want-to-put-in-the-checklist-after-reading-the-book-">Topic I want to put in the checklist after reading the book.</h2>
+<p>After finishing the book I know that this book has special pointers which I think I would like to add them because of pointers in unique for C programming. The next thing is the routine of programming which it state how you should write and work with them if you want to master and a topic about Console I/O and low-level I/O. And the last one is about graphic coding and functions of them.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, this book is not bad but it is out of date some of the features it state are popular on this day. And the style of the book is boring a lot of plain text and code but the content of it isn&#39;t bad like the data structure , I/O and UI part is really nice to read if you want to use it. So overall I would say if you wanna learned and tried these topics the book is great for you.</p>
