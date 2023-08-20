@@ -7,8 +7,7 @@ The book is **Advanced Turbo C Programming (1988)** which is really old book and
  [Clik here if you want to read Advanced Turbo C Programming (1988) ](https://www.sciencedirect.com/book/9780127426891/advanced-turbo-c-programming)
 # Table of contents
 
-- [Book Review](#book-review)
-- [Table of contents](#table-of-contents)
+
   - [Topics to learn C](#topics-to-learn-c)
   - [What Advanced Turbo C Programming (1988) Does Not Have.](#what-advanced-turbo-c-programming-1988-does-not-have)
   - [The Topic that This Book Have](#the-topic-that-this-book-have)
